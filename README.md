@@ -1,13 +1,38 @@
-# Alex Morgan Portfolio Demo
+# Codex Playground
 
-A static one-page portfolio website with semantic HTML, responsive CSS, and light JavaScript interactions.
+A workspace for learning, experimenting, and building small projects with Codex.
 
-## Local usage
+## Repository structure
 
-Open `index.html` directly in a browser, or serve the folder with any static file server:
-
-```bash
-python3 -m http.server 8000
+```text
+Codex/
+├── projects/      # Small apps and active projects
+├── experiments/   # Quick technical tests and prototypes
+├── ideas/         # Project ideas before development starts
+└── README.md
 ```
 
-Then visit `http://localhost:8000`.
+## How I use this repository
+
+### `projects/`
+Each active project gets its own folder. A project can have its own dependencies, source code, and README.
+
+Example:
+
+```text
+projects/
+└── job-posting-collector/
+    ├── README.md
+    ├── requirements.txt
+    └── main.py
+```
+
+### `experiments/`
+For quick tests, API experiments, scraping tests, and code I am using to learn a concept.
+
+### `ideas/`
+For capturing project ideas before I start building them.
+
+## Project rule
+
+Keep small learning projects here. If a project becomes a serious standalone product or portfolio piece, move it into its own GitHub repository.
